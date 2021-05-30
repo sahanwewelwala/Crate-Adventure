@@ -102,6 +102,8 @@ svg {
     z-index: 10;
     top: -384px;
     background-color: transparent;
+    color: white;
+    border: hidden;
 
 }
 
@@ -157,6 +159,7 @@ svg {
 .card-title {
     color: #157d7e;
     font-weight: 600;
+    overflow: hidden;
 }
 
 .card-text {
@@ -209,6 +212,7 @@ svg {
     font-weight: 600;
     font-size: 20px;
     margin: 20px;
+    overflow: hidden;
 }
 
 .card-text-review {
@@ -232,6 +236,7 @@ svg {
 
 .review-card-title-center {
     color: white;
+    overflow: hidden;
     font-weight: 600;
     font-size: 20px;
     margin: 20px;
@@ -316,6 +321,7 @@ svg {
 }
 
 #map {
+    overflow: hidden;
     position: relative;
     top: 40px;
     width: 90%;
