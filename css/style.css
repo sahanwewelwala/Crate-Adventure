@@ -18,6 +18,7 @@ main {
 
     background-repeat: no-repeat;
     background-size: 100%;
+    background-color: #fafafa;
 
 
 }
@@ -41,14 +42,56 @@ svg {
 }
 
 .container-1 {
-    background-image: url(../assets/Backgroun-img.webp);
+    /* background-image: url(../assets/Backgroun-img.webp); */
     background-size: 100%;
-    height: 750px;
+    height: 50vw;
     overflow: hidden;
     background-repeat: no-repeat;
     z-index: -10;
 }
 
+.img-container~.hero-img-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.hero-img-container img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
+.hero-content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: none;
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: -30%;
+    z-index: 10;
+}
+
+.hero-content p {
+    margin-top: 10%;
+    text-align: center;
+    font-size: 22px;
+    color: #f6f6f6;
+}
 
 
 .center-text {
@@ -68,11 +111,12 @@ svg {
 
 
 .text-upper-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    font-size: 30px;
-    position: relative;
-    top: -300px;
-
+    z-index: 10;
+    margin-bottom: 10%;
 }
 
 
@@ -80,34 +124,38 @@ svg {
     text-align: center;
     color: white;
     background: rgba(22, 22, 22, 0.644);
-    margin: 500px;
-    position: relative;
-    top: -250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     z-index: 1;
-
-
-
 }
 
 #text-center-first {
-    position: relative;
-    font-size: 20px;
+
+    font-size: 25px;
     color: #5c5c5c;
-    margin-top: 20px;
+
 
 }
 
 .curve {
-    position: relative;
-    z-index: 10;
-    top: -384px;
-    background-color: transparent;
-    color: white;
-    border: hidden;
-
+    display: flex;
+    flex-direction: column;
+    border: none;
+    height: 50vh;
+    width: 100%;
+    margin-top: -7%;
 }
 
+.cuver svg {
+    width: 100% !important;
+}
 
+@media only screen and (min-device-width: 720px) and (max-device-width: 1280px) and (orientation: landscape) {
+    .curve {
+        margin-top: -12%
+    }
+}
 
 .my-row-2 {
 
@@ -151,34 +199,42 @@ svg {
 
 }
 
-.card {
-    margin: 24px;
-
-}
-
-.card-title {
-    color: #157d7e;
-    font-weight: 600;
-    overflow: hidden;
-}
-
-.card-text {
-    color: #515753;
-    font-size: 15px;
-}
-
 .card-body {
     background-color: #ddffe7;
+    margin-top: -10px;
+
 }
 
+#img-adventure {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
 
+.card-adventure {
+    max-width: 400px;
+    min-height: 450px;
+    border-radius: 20px;
+    border: #fafafa 20px solid;
+    background-color: white;
+    padding: 0%;
+
+}
+
+.adventure-card-title {
+    color: #157d7e;
+    font-weight: 600;
+    font-size: 20px;
+
+    overflow: hidden;
+}
 
 #button-adventure {
     background-color: #157d7e;
     border-radius: 30px;
     color: white;
     border: 0px;
-    padding: 12px 70px 12px 70px;
+    padding: 10px 40px 10px 40px;
     margin: 30px;
 }
 
@@ -261,6 +317,7 @@ svg {
 #last-text {
     font-size: 20px;
     color: #5c5c5c;
+    margin-bottom: 8%;
 }
 
 .footer {
