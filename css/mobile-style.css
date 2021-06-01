@@ -5,6 +5,7 @@
 
     .curve {
         visibility: hidden;
+        display: none;
     }
 
     .hero-content {
