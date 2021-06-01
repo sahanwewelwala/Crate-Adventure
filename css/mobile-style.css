@@ -4,8 +4,7 @@
     }
 
     .curve {
-        margin-top: -1%;
-        line-height: 0%;
+        visibility: hidden;
     }
 
     .hero-content {
