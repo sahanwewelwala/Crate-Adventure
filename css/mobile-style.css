@@ -1,7 +1,5 @@
 @media only screen and (max-width:768px) {
-    .container-1 {
-        height: 45vh;
-    }
+    .container-1 {}
 
     .curve {
         visibility: hidden;
@@ -10,18 +8,18 @@
 
     .hero-content {
 
-        margin-top: -120%;
+        margin-top: 10px;
 
     }
 
     #text-hero {
-        font-size: 16px;
+        font-size: 12px;
     }
 
     #button-center {
-        padding: 12px;
-        font-size: 12px;
-        margin: 4%;
+        padding: 8px;
+        font-size: 8px;
+        margin: 2%;
     }
 
     #text-center-first {
