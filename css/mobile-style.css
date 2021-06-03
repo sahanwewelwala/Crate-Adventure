@@ -1,8 +1,9 @@
 @media only screen and (max-width:768px) {
     .container-1 {}
 
-    .curve {    
-        
+    .curve {
+        display: none;
+        display: block;
     }
 
     .hero-content {
